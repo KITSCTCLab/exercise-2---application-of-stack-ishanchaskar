@@ -32,7 +32,7 @@ class Evaluate:
 
   def push(self, operand):
    #Push the operand to stack if the stack is not full.
-   #Arguments:
+   #Arguments: 
    # operand: The operand to be pushed.
     if len(self.stack) < self.size_of_stack:
       self.top += 1
